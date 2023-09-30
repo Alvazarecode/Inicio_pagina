@@ -1,0 +1,24 @@
+
+.header_enlace {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slogan {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li {
+    list-style: none;
+    padding: 0 15px;
+}
