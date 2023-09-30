@@ -38,12 +38,15 @@ a {
 .logo_u {
     position:absolute;
     margin-left: 180px;
-    margin-top: 200px;
+    margin-top: 150px;
+    text-align: justify;
+    color: white;
+    width: 400px;
+    font-size: 20px;
 }
 
-.logo_u p{
-    text-align: center;
-    color: white;
+p{
+    margin-bottom: 0%;
 }
 
 @media (max-width: 600px) {
