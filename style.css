@@ -1,4 +1,9 @@
 
+body {
+    background-image: url(img/fondo.png);
+    
+}
+
 .header_enlace {
     width: 80%;
     display: flex;
@@ -15,10 +20,36 @@
 header {
     display: flex;
     justify-content: space-between;
+    background-color:ghostwhite;
     
 }
 
 li {
     list-style: none;
     padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo_u {
+    position:absolute;
+    margin-left: 180px;
+    margin-top: 200px;
+}
+
+.logo_u p{
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    header, ul {
+        flex-direction: column;
+    }
+    
 }
